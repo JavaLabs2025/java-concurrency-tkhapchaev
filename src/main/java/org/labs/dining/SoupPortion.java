@@ -1,13 +1,12 @@
 package org.labs.dining;
 
 public class SoupPortion {
-    private final int capacity;
+    public static final int CAPACITY = 20;
 
     private int size;
 
     public SoupPortion() {
-        capacity = 20;
-        size = capacity;
+        size = CAPACITY;
     }
 
     public int getSize() {
